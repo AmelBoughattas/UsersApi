@@ -12,8 +12,6 @@ function App() {
 
   const [users, setUsers] = useState([]);
 
-  const [loading, setLoading] = useState(true);
-
   useEffect(() => {
 
     const fetchData = async () => {
